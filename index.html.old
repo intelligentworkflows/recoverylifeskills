@@ -1,0 +1,368 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recovery Life Skills - Addiction, Recovery, Dual Diagnosis</title>
+  <meta name="description" content="How I survived to long term recovery while holding a full time job, parenting, and combating mental illness.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://recoverylifeskills.com/">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    header { padding: 16px 0 8px; }
+    main { margin: 32px auto 0; }
+
+.intro {
+      background: var(--accent-light);
+      border: 1px solid var(--border-blue);
+      border-left: 4px solid var(--accent);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      margin-bottom: 32px;
+      font-size: 1rem;
+      color: var(--text);
+    }
+
+    .intro p { margin-bottom: 12px; }
+    .intro p:last-child { margin-bottom: 0; }
+
+    .treatments {
+      list-style: none;
+      margin-top: 10px;
+      columns: 2;
+      column-gap: 16px;
+    }
+
+    .treatments li {
+      padding: 3px 0;
+      font-size: 0.95rem;
+      break-inside: avoid;
+    }
+
+    .treatments li::before {
+      content: "•";
+      color: var(--accent);
+      font-weight: 700;
+      margin-right: 8px;
+    }
+
+    .faq-section h2 {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+
+    details {
+      background: var(--surface);
+      border: 1px solid var(--border-blue);
+      border-radius: var(--radius);
+      margin-bottom: 8px;
+      overflow: hidden;
+    }
+
+    details[open] {
+      border-color: var(--accent);
+    }
+
+    summary {
+      cursor: pointer;
+      padding: 16px 20px;
+      font-weight: 600;
+      font-size: 1rem;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      user-select: none;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    summary::after {
+      content: "+";
+      font-size: 1.3rem;
+      font-weight: 300;
+      color: var(--accent);
+      flex-shrink: 0;
+      line-height: 1;
+    }
+
+    details[open] summary::after {
+      content: "−";
+    }
+
+    summary:hover {
+      background: var(--accent-light);
+    }
+
+    .answer {
+      padding: 0 20px 20px;
+      color: var(--text);
+      font-size: 0.975rem;
+    }
+
+    .answer p { margin-top: 12px; }
+    .answer p:first-child { margin-top: 0; }
+
+    .answer a {
+      color: var(--accent);
+      word-break: break-word;
+    }
+
+    .answer table {
+      border-collapse: collapse;
+      width: 100%;
+      font-size: 0.95rem;
+    }
+
+    .answer th {
+      padding: 5px 12px;
+      text-align: left;
+      border: 1px solid var(--accent);
+      background: var(--accent-light);
+      font-weight: 700;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .answer td {
+      padding: 5px 12px;
+      vertical-align: top;
+      border: 1px solid var(--accent);
+    }
+
+    .answer td:first-child {
+      white-space: nowrap;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .toc {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      margin-bottom: 16px;
+    }
+
+    .toc-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .toc ul {
+      list-style: disc;
+      margin: 0;
+      padding-left: 1.25rem;
+      columns: 2;
+      column-gap: 16px;
+    }
+
+    .toc li {
+      font-size: 1.05rem;
+      padding: 3px 0;
+      break-inside: avoid;
+    }
+
+    .toc a {
+      color: #1a6fc4;
+      text-decoration: none;
+    }
+
+    .toc a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <aside class="disclaimer">
+    <strong>Disclaimer:</strong> Call 911 in case of emergency; 988 for suicide prevention lifeline; This is my first-person account of my own journey; This is not advice. <a href="aup/index.html">Full acceptable use policy.</a>
+  </aside>
+
+  <header>
+    <h1>Recovery Life Skills</h1>
+    <p>How I survived to long term recovery while holding a full time job, parenting, and combating mental illness.</p>
+  </header>
+
+  <main>
+
+    <nav class="toc">
+      <p class="toc-label">On This Page</p>
+      <ul>
+        <li><a href="my-program/index.html">Program of Recovery</a></li>     
+        <!-- <li><a href="my-program/index.html">Dual Diagnosis</a></li> -->
+        <!-- <li><a href="upon-awakening/index.html">Returning Home</a></li> -->
+        <li><a href="#joe-charlie">12 Steps Introduction and Step Prayers</a></li>
+        <li><a href="biblical-inspiration/index.html">Biblical Sources of 12 Steps</a></li>
+        <li><a href="step-prayers/index.html">Speaker Recordings, Audio, Podcasts</a></li>
+        <!-- <li><a href="faq/index.html">Fequently Asked Questions (FAQs)</a></li> -->
+        <!-- <li><a href="aa/index.html">Alcoholics Anonymous</a></li> -->
+        <li><a href="upon-awakening/index.html">Upon Awakening</a></li>
+      </ul>
+    </nav>
+
+    <div class="intro">
+      <h2>My Addiction Story</h2>
+      <p>Sober since January 14, 2017</p>
+      <ul>
+        <li>Government Detox</li>
+        <li>Medical Withdrawals</li>
+        <li>In-patient Rehab</li>
+        <li>Out-patient Rehab</li>
+        <li>80 AA Meetings in 90 Days</li>
+        <li>Working the 12 steps</li>
+        <li>Became a Sponsor</li>
+        <li>Prioritized Teachings of Jesus</li>
+        <li>Consistent mental health Concerns</li>
+        <li>Mania</li>
+        <li>Near Constant Depression</li>
+        <li>Dual Diagnosis</li>
+      </ul>
+    </div>
+
+    <div class="faq-section">
+      <details id="dual-diagnosis">
+        <summary>Audience: Dual Diagnosis</summary>
+        <div class="answer">
+          <p>My experience is living a life of dual diagnosis. Treating has a much lower probability of success than other addiction cases, so my program that I live on a daily basis has to go all in. The standard approaches are worth trying first; the program that has kept me sober is intense and a much harder path. It has required reserving about 2 hours a day indefinitely, until beginning the sponsorship process.</p>
+        </div>
+      </details>
+
+      <details id="joe-charlie">
+        <summary>Not sure the 12 steps are the right program? Listen to Joe &amp; Charlie's Introduction</summary>
+        <div class="answer">
+          <iframe class="podcast-embed" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/joe-charlie-big-book-comes-alive-1st-of-10-sessions/id687141143?i=1000164019672"></iframe>
+          <iframe class="podcast-embed" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/joe-charlie-big-book-comes-alive-2nd-of-10-sessions/id687141143?i=1000164019676"></iframe>
+          <iframe class="podcast-embed" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/joe-charlie-big-book-comes-alive-3rd-of-10-sessions/id687141143?i=1000164019649"></iframe>
+          <iframe class="podcast-embed" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/joe-charlie-big-book-comes-alive-4th-of-10-sessions/id687141143?i=1000164019675"></iframe>
+          <iframe class="podcast-embed" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/joe-charlie-big-book-comes-alive-5th-of-10-sessions/id687141143?i=1000164019674"></iframe>
+        </div>
+      </details>
+
+      <details id="returning-home">
+        <summary>Returning Home From Rehab</summary>
+        <div class="answer">
+          <ul>
+            <li>I had friends and family clean every inch of alcohol, bottles, cans, glasses, alcohol related trash, and any other sign of my drinking from my house and cars. Even my wine glasses were given away.</li>
+            <li>More to come...</li>
+          </ul>
+        </div>
+      </details>
+
+      <details id="mental-illness">
+        <summary>My mental illness has gotten worse in sobriety</summary>
+        <div class="answer">
+          <ul>
+              <li>My depressive episodes are now worse</li>
+              <li>My manic episodes are now worse</li>
+              <li>I have to take more medications</li>
+              <li>My side effects are much worse</li>
+              <li>More to come...</li>
+          </ul>
+        </div>
+      </details>
+
+      <details id="old-life">
+        <summary>I want my old life back</summary>
+        <div class="answer">
+          <ul>
+              <li>We may not get our spouse back</li>
+              <li>We may not get our kids back</li>
+              <li>We may not have our liver cirrhosis healed</li>
+              <li>More to come...</li>
+          </ul>
+        </div>
+      </details>
+
+      <details id="multiple-approaches">
+        <summary>Multiple Approaches</summary>
+        <div class="answer">
+        <p>See <a href="my-program/index.html">My Program</a> for a list of approaches that I have tried.</p>
+        </div>
+      </details>
+
+      <details id="day-worth-living">
+        <summary>Was The Day Worth Living?</summary>
+        <div class="answer">
+          <ul>
+            <li>I still have a chance to make a difference tomorrow?</li>
+            <li>Did I take a drink?</li>
+            <li>More to come...</li>
+          </ul>
+        </div>
+      </details>
+
+      <details id="aa-sponsorship">
+        <summary>Today's Typical AA Sponsorship Program</summary>
+        <div class="answer">
+          <p>I have seen and helped people make this approach work if they do not have direct dependents</p>
+          <ul>
+            <li>90 Days in Rehab</li>
+            <li>90 Days in Sober Living</li>
+            <li>90 Meetings in 90 Days</li>
+          </ul>
+        </div>
+      </details>
+
+      <details id="biblical-inspiration">
+        <summary>12-Steps and Biblical Inspiration</summary>
+        <div class="answer">
+          <ol class="step-list">
+            <li>Admitted we were powerless over alcohol&mdash;that our lives had become unmanageable. &mdash; <a href="https://www.biblegateway.com/passage/?search=Romans+7:15-19&version=NLT">Romans 7:15&ndash;19</a>; <a href="https://www.biblegateway.com/passage/?search=2+Corinthians+12:9-10&version=NLT">2 Corinthians 12:9&ndash;10</a></li>
+            <li>Came to believe that a Power greater than ourselves could restore us to sanity. &mdash; <a href="https://www.biblegateway.com/passage/?search=Philippians+2:13&version=NLT">Philippians 2:13</a>; <a href="https://www.biblegateway.com/passage/?search=2+Timothy+1:7&version=NLT">2 Timothy 1:7</a></li>
+            <li>Made a decision to turn our will and our lives over to the care of God as we understood Him. &mdash; <a href="https://www.biblegateway.com/passage/?search=Proverbs+3:5-6&version=NLT">Proverbs 3:5&ndash;6</a>; <a href="https://www.biblegateway.com/passage/?search=Matthew+6:10&version=NLT">Matthew 6:10</a></li>
+            <li>Made a searching and fearless moral inventory of ourselves. &mdash; <a href="https://www.biblegateway.com/passage/?search=Lamentations+3:40&version=NLT">Lamentations 3:40</a>; <a href="https://www.biblegateway.com/passage/?search=Psalm+139:23-24&version=NLT">Psalm 139:23&ndash;24</a></li>
+            <li>Admitted to God, to ourselves, and to another human being the exact nature of our wrongs. &mdash; <a href="https://www.biblegateway.com/passage/?search=James+5:16&version=NLT">James 5:16</a>; <a href="https://www.biblegateway.com/passage/?search=1+John+1:9&version=NLT">1 John 1:9</a></li>
+            <li>Were entirely ready to have God remove all these defects of character. &mdash; <a href="https://www.biblegateway.com/passage/?search=Ezekiel+36:26&version=NLT">Ezekiel 36:26</a>; <a href="https://www.biblegateway.com/passage/?search=Romans+12:2&version=NLT">Romans 12:2</a></li>
+            <li>Humbly asked Him to remove our shortcomings. &mdash; <a href="https://www.biblegateway.com/passage/?search=Psalm+51:10&version=NLT">Psalm 51:10</a>; <a href="https://www.biblegateway.com/passage/?search=1+Peter+5:6&version=NLT">1 Peter 5:6</a></li>
+            <li>Made a list of all persons we had harmed, and became willing to make amends to them all. &mdash; <a href="https://www.biblegateway.com/passage/?search=Luke+6:31&version=NLT">Luke 6:31</a>; <a href="https://www.biblegateway.com/passage/?search=Luke+19:8&version=NLT">Luke 19:8</a></li>
+            <li>Made direct amends to such people wherever possible, except when to do so would injure them or others. &mdash; <a href="https://www.biblegateway.com/passage/?search=Matthew+5:23-24&version=NLT">Matthew 5:23&ndash;24</a>; <a href="https://www.biblegateway.com/passage/?search=Romans+12:18&version=NLT">Romans 12:18</a></li>
+            <li>Continued to take personal inventory and when we were wrong promptly admitted it. &mdash; <a href="https://www.biblegateway.com/passage/?search=Proverbs+28:13&version=NLT">Proverbs 28:13</a>; <a href="https://www.biblegateway.com/passage/?search=1+Corinthians+11:28&version=NLT">1 Corinthians 11:28</a></li>
+            <li>Sought through prayer and meditation to improve our conscious contact with God as we understood Him, praying only for knowledge of His will for us and the power to carry that out. &mdash; <a href="https://www.biblegateway.com/passage/?search=Philippians+4:6-7&version=NLT">Philippians 4:6&ndash;7</a>; <a href="https://www.biblegateway.com/passage/?search=Psalm+46:10&version=NLT">Psalm 46:10</a></li>
+            <li>Having had a spiritual awakening as the result of these Steps, we tried to carry this message to alcoholics, and to practice these principles in all our affairs. &mdash; <a href="https://www.biblegateway.com/passage/?search=Galatians+6:1-2&version=NLT">Galatians 6:1&ndash;2</a>; <a href="https://www.biblegateway.com/passage/?search=Matthew+28:19-20&version=NLT">Matthew 28:19&ndash;20</a></li>
+          </ol>
+        </div>
+      </details>
+    </div>
+
+    <div class="intro">
+      <p>Family Member Resources</p>
+      <ul>
+        <li><a href="https://al-anon.org/">AL-ANON</a></li>
+        <li><a href="https://a.co/d/01CTTAzw">The Bipolar Survival Guide: Survival Guide: What You and Your Family Need to Know</a> with availability on all audio book platforms</li>
+        <li>We try to avoid major life decisions in the first few months of sobriety</li>
+      </ul>
+    </div>
+
+    <div class="intro">
+      <p>I am so tired of watching my friends intentionally or unintentionally ending their lives before even trying a few things on this list:</p>
+      <ul class="treatments">
+        <li><a href="ready-to-stop/index.html">Ready to Stop</a></li>
+        <li><a href="basics-to-try/index.html">Basics to Try</a></li>
+      </ul>
+    </div>
+
+  </main>
+
+  <footer>
+    Recovery Life Skills &nbsp;·&nbsp;
+    <a href="upon-awakening/index.html">Upon Awakening</a> &nbsp;·&nbsp;
+    <a href="faq/index.html">FAQ</a> &nbsp;·&nbsp;
+    <a href="step-prayers/index.html">Step Prayers</a> &nbsp;·&nbsp;
+    <a href="my-program/index.html">My Program</a> &nbsp;·&nbsp;
+    <a href="aa/index.html">Alcoholics Anonymous</a> &nbsp;·&nbsp;
+    <a href="biblical-inspiration/index.html">Biblical Inspiration</a> &nbsp;·&nbsp;
+    <a href="aup/index.html">Acceptable Use Policy</a>
+  </footer>
+
+</body>
+</html>

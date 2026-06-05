@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alcoholics Anonymous</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .absolute-card {
+      background: var(--surface);
+      border: 1px solid var(--border-blue);
+      border-left: 4px solid var(--accent);
+      border-radius: var(--radius);
+      padding: 18px 20px;
+      margin-bottom: 12px;
+    }
+
+    .absolute-card h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+
+    .absolute-card p {
+      font-size: 0.975rem;
+      color: var(--text);
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+
+  <aside class="disclaimer">
+    <strong>Disclaimer:</strong> Call 911 in case of emergency; 988 for suicide prevention lifeline; This is my first-person account of my own journey; This is not advice. <a href="aup/index.html">Full acceptable use policy.</a>
+  </aside>
+
+  <header>
+    <h1>Alcoholics Anonymous</h1>
+    <p>The Four Absolutes and their influence on Alcoholics Anonymous.</p>
+  </header>
+
+  <nav>
+    <a href="../index.html">← Back to Recovery Life Skills</a>
+  </nav>
+
+  <main>
+
+    <section>
+      <div class="note-box">
+        The Oxford Group was a Christian fellowship founded by Frank Buchman in the early 20th century. Their Four Absolutes were a set of moral standards used as a benchmark for self-examination — to determine if one's thoughts and actions were aligned with God's will. They <strong>directly and heavily influenced the foundational principles of Alcoholics Anonymous</strong> and the 12-Step recovery program.
+      </div>
+    </section>
+
+    <section>
+      <h2>The Four Absolutes</h2>
+
+      <div class="absolute-card">
+        <h3>Absolute Honesty</h3>
+        <p>Refraining from lying, cheating, or stealing in any form, whether in word or deed. It involves being completely truthful with oneself, others, and God.</p>
+      </div>
+
+      <div class="absolute-card">
+        <h3>Absolute Purity</h3>
+        <p>Maintaining purity of mind, body, and motives. This was often interpreted as avoiding resentments, selfish desires, and maintaining moral integrity.</p>
+      </div>
+
+      <div class="absolute-card">
+        <h3>Absolute Unselfishness</h3>
+        <p>Seeking what is right for others before seeking what is right for oneself. It means putting the needs of the community and others above personal ambition or greed.</p>
+      </div>
+
+      <div class="absolute-card">
+        <h3>Absolute Love</h3>
+        <p>A commitment to loving God and loving one's neighbor, unconditionally. This involves acting with compassion and letting go of hatred, prejudice, or retaliation.</p>
+      </div>
+    </section>
+
+    
+    <section>
+      <div class="note-box">
+        These are personal observations from years of lived experience — not medical advice. What worked for me may not work for everyone.
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-label">Social Situations</h2>
+
+      <details open>
+        <summary>I always have a sober buddy before going somewhere with alcohol</summary>
+        <div class="answer">
+          <p>Before going to any location that will have alcohol, I make sure I have a sober buddy with me. Having someone who understands my situation makes a real difference when temptation appears unexpectedly.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>I have a clear purpose before going to a bar</summary>
+        <div class="answer">
+          <p>I have a clear purpose before going to a bar or any place centered around drinking. Wandering in without one is an unnecessary risk.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>I avoid fake alcohol drinks</summary>
+        <div class="answer">
+          <p>I avoid 0% beers, 0% seltzers, and sparkling wines or champagnes that are alcohol-free. These drinks mimic the ritual of drinking and can quickly erode the mental boundary I have worked hard to build.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>I avoid cooking with alcohol</summary>
+        <div class="answer">
+          <p>I avoid cooking with alcohol or anything that keeps it unnecessarily present in my life. This includes beer-battered items or whiskey barbecue sauces — anything that treats alcohol as a normal household ingredient.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>I leave when serious alcohol comes out</summary>
+        <div class="answer">
+          <p>Since 2017, whenever the serious alcohol comes out at a gathering, I leave the party. This is not about judgment — it is about protecting my sobriety.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>I never go back to a bar where I used to drink</summary>
+        <div class="answer">
+          <p>I never return to a bar where I used to drink. The familiar environment, sounds, and smells carry powerful emotional triggers that are not worth testing.</p>
+        </div>
+      </details>
+    </section>
+
+    <section>
+      <h2 class="section-label">People Around Me</h2>
+
+      <details>
+        <summary>What I think about people who drink in front of me knowing my situation</summary>
+        <div class="answer">
+          <p>If someone knows about my alcoholism and still chooses to drink heavily in front of me, that says something about them. They may have a problem of their own. This is not about judgment — it is worth paying attention to.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Why I contact my sponsor every day</summary>
+        <div class="answer">
+          <p>Daily contact keeps the line open before a crisis, not after one. A brief check-in is far easier than a rescue call at 2 a.m. My sponsor also cannot help me stay accountable if they only hear from me when things are already bad.</p>
+        </div>
+      </details>
+    </section>
+
+    <section>
+      <h2 class="section-label">Mental Health and Time</h2>
+
+      <details>
+        <summary>What is the Pink Cloud?</summary>
+        <div class="answer">
+          <p>The Pink Cloud is the feeling of euphoria and optimism that many people experience early in sobriety. It feels wonderful but is temporary. Depression will spike unexpectedly — up and down without obvious cause — usually within the first three months after the Pink Cloud fades. This is exactly why we do this work every day, because we cannot predict when a serious depressive episode will occur.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>What does "one shot over the bow" mean?</summary>
+        <div class="answer">
+          <p>A warning shot — a signal that something is wrong before it becomes a full relapse. Learning to recognize my own warning shots and act on them immediately is one of the most important skills I have developed in long-term sobriety.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>What is "pause"?</summary>
+        <div class="answer">
+          <p>Pause is the deliberate act of stopping before reacting — especially in moments of anger, craving, or emotional chaos. It is a foundational habit that buys enough time for better judgment to arrive.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>How many hours a day was I wasting because of alcohol?</summary>
+        <div class="answer">
+          <p>Calculating this honestly is a powerful exercise. Sobriety returns those hours. This is why we are willing to spend a couple of hours a day on things that support recovery — we are still far ahead compared to where we were.</p>
+        </div>
+      </details>
+    </section>
+
+    
+  </main>
+
+  <footer>
+    <a href="../index.html">Home</a> &nbsp;·&nbsp;
+    <a href="../upon-awakening/index.html">Upon Awakening</a> &nbsp;·&nbsp;
+    <a href="../faq/index.html">FAQ</a> &nbsp;·&nbsp;
+    <a href="../step-prayers/index.html">Step Prayers</a> &nbsp;·&nbsp;
+    <a href="../my-program/index.html">My Program</a> &nbsp;·&nbsp;
+    <a href="../biblical-inspiration/index.html">Biblical Inspiration</a> &nbsp;·&nbsp;
+    <a href="../aup/index.html">Acceptable Use Policy</a>
+  </footer>
+
+</body>
+</html>
