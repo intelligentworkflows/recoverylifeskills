@@ -443,3 +443,40 @@ footer a:hover { text-decoration: underline; }
   background: var(--accent-light);
   text-decoration: none;
 }
+
+.step-verses {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.verse-quote {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--muted);
+  border-left: 3px solid var(--border-blue);
+  padding: 10px 14px;
+  background: var(--accent-light);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  line-height: 1.6;
+}
+
+.verse-cite {
+  display: block;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--accent);
+  margin-top: 6px;
+}
+
+.verse-cite a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.verse-cite a:hover { text-decoration: underline; }
+
+.verse-quote p { color: inherit; margin-bottom: 10px; }
+.verse-quote p:last-of-type { margin-bottom: 0; }

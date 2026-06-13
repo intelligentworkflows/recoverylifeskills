@@ -6,7 +6,10 @@
       "Bash(Format-Table -AutoSize)",
       "WebFetch(domain:www.biblegateway.com)",
       "Bash(python build.py)",
-      "Bash(python -c ' *)"
+      "Bash(python -c ' *)",
+      "Bash(gh repo *)",
+      "Bash(git remote *)",
+      "Bash(git push *)"
     ]
   }
 }
