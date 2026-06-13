@@ -48,6 +48,7 @@ def build():
                 out_of_sync.append(str(out.relative_to(ROOT)))
         else:
             if not out.exists() or out.read_text(encoding="utf-8") != final:
+                out.parent.mkdir(parents=True, exist_ok=True)
                 out.write_text(final, encoding="utf-8")
                 print(f"  wrote     {out.relative_to(ROOT)}")
                 written += 1
