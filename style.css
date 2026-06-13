@@ -415,6 +415,76 @@ footer a:hover { text-decoration: underline; }
 
 .activity-list a:hover { text-decoration: underline; }
 
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 8px;
+}
+
+@media (max-width: 480px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.success-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+
+.success-card strong {
+  display: block;
+  color: var(--accent);
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+}
+
+.success-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.success-card ul li {
+  font-size: 0.875rem;
+  color: var(--muted);
+  padding: 4px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.success-card ul li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.success-card ul li a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.success-card ul li a:hover { text-decoration: underline; }
+
+.tag-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.success-tag {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
 .toc ul {
   list-style: none;
   display: grid;
