@@ -93,6 +93,20 @@ p:last-child { margin-bottom: 0; }
   color: var(--text);
 }
 
+.warning-box {
+  background: #fdecea;
+  border: 1px solid #f5c2c0;
+  border-left: 4px solid #c0392b;
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  font-size: 0.95rem;
+  color: #7a2620;
+}
+
+.warning-box strong {
+  color: #c0392b;
+}
+
 footer {
   max-width: var(--max-w);
   margin: 48px auto 0;
