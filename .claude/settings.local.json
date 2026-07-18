@@ -9,7 +9,9 @@
       "Bash(python -c ' *)",
       "Bash(gh repo *)",
       "Bash(git remote *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(python build.py --check)",
+      "Bash(echo \"exit $?\")"
     ]
   }
 }
