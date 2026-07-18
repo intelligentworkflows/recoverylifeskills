@@ -12,6 +12,7 @@ def build():
     footer_tpl = (PARTIALS / "footer.html").read_text(encoding="utf-8")
     check_mode = "--check" in sys.argv
     out_of_sync = []
+    checked = 0
     written = 0
     unchanged = 0
 
@@ -44,6 +45,7 @@ def build():
         final = gen_comment + content
 
         if check_mode:
+            checked += 1
             if not out.exists() or out.read_text(encoding="utf-8") != final:
                 out_of_sync.append(str(out.relative_to(ROOT)))
         else:
@@ -63,8 +65,7 @@ def build():
                 print(f"  {p}")
             sys.exit(1)
         else:
-            count = len(list(TEMPLATES.rglob("*.html")))
-            print(f"All {count} generated files are in sync.")
+            print(f"All {checked} generated files are in sync.")
     else:
         print(f"\nBuild complete: {written} written, {unchanged} unchanged.")
 
