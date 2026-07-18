@@ -50,6 +50,8 @@ _partials/
 _templates/
   index.html          root page template
   <dir>/page.html     sub-page templates
+_draft/
+  <dir>/page.html     unpublished pages — not built
 <dir>/
   index.html          generated output — do not edit
 index.html            generated output — do not edit
@@ -64,25 +66,32 @@ All theming uses CSS custom properties defined in `:root` in `style.css`:
 - Layout: `--max-w` (680px content width), `--radius` (6px)
 - Font: system stack (SF Pro Display → Segoe UI → sans-serif)
 
-Reusable component classes: `.note-box` (highlighted info block), `.prayer-card` (card layout), `.items-list` / `.step-list` / `.podcast-list` (custom list styles). Collapsible sections use native `<details>`/`<summary>` with CSS-only +/- toggle animation.
+Reusable component classes:
+- Callouts: `.note-box`, `.warning-box`, `.urgent-box`, `.checkin-box`, `.disclaimer`
+- Lists: `.step-list`, `.sub-list`, `.activity-list`, `.recording-links`
+- Cards: `.card-grid` + `.success-card` (two-column grid), `.organ-cards` + `.organ-card` (stacked, organ-damage page only)
+- Timeline: `.timeline` and its `.timeline-entry` / `.timeline-period` / `.timeline-title` / `.timeline-detail` children — used by the home page only
+- Quotes: `.bb-passage` (Big Book), `.verse-quote` / `.verse-cite` (scripture)
+
+Collapsible sections use native `<details>`/`<summary>` with CSS-only +/- toggle animation.
 
 ### Site Map
 
+Live pages — one per `_templates/<dir>/page.html`:
+
 | Directory | Page purpose |
 |-----------|-------------|
-| `index.html` | Home — timeline hub with nav to all pages |
+| `index.html` | Home — the author's recovery timeline, detox through present, with nav to all pages |
+| `aa-audiobook/` | AA Big Book audiobook recordings |
 | `aup/` | Acceptable Use Policy / legal disclaimers |
 | `biblical-inspiration/` | Biblical sources of the 12 Steps |
+| `daily-check-in/` | Daily check-in practice |
 | `joe-charlie/` | Joe and Charlie's Big Book study recordings |
+| `organ-damage/` | Alcohol damage organ by organ — what heals, what is permanent |
 | `step-prayers/` | Three key prayers from AA literature (Steps 3, 7, 11) |
-| `upon-awakening/` | Daily morning routine (Big Book + sponsor + meeting) |
-| `week-1/` | Author's Week 1: medical detox and first AA meeting |
-| `weeks-2-8/` | Author's Weeks 2–8: in-patient and out-patient rehab |
-| `weeks-9-22/` | Author's Weeks 9–22: first 90 days home, 80 meetings |
-| `weeks-23-39/` | Author's Weeks 23–39: beginning to sponsor others |
-| `late-2017-to-current/` | Dual diagnosis and long-term recovery practices |
-| `triggers/` | Personal list of emotional and environmental triggers |
-| `avoid/` | Personal list of places, products, and situations to avoid |
+| `successes/` | Things That Worked — strategies behind long-term sobriety |
+
+`_draft/` holds pages pulled from the live site (the per-week timeline pages, `upon-awakening/`, `triggers/`, `avoid/`, `faq/`, and others). The build ignores it — it only globs `_templates/`. Move a directory back into `_templates/` to republish, and re-add its footer and home-page nav links.
 
 ### External Dependencies
 
