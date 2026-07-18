@@ -586,20 +586,14 @@ footer a:hover { text-decoration: underline; }
   color: var(--text);
 }
 
-/* Symptom chips inside an organ card. Two columns is the floor at every
-   width, so a chip never spans the card; auto-fit adds a third and
-   fourth once there is room. */
+/* Symptom chips inside an organ card: exactly two columns at every
+   width. Each chip sizes to its own text and sits at the start of its
+   column rather than stretching to fill it. */
 .organ-note-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 8px;
   margin-top: 4px;
-}
-
-@media (min-width: 480px) {
-  .organ-note-grid {
-    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-  }
 }
 
 .organ-note {
@@ -611,8 +605,10 @@ footer a:hover { text-decoration: underline; }
   font-size: 0.85rem;
   line-height: 1.35;
   color: var(--text);
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  justify-self: start;
+  max-width: 100%;
   min-width: 0;
   overflow-wrap: anywhere;
 }
