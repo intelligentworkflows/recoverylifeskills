@@ -586,6 +586,27 @@ footer a:hover { text-decoration: underline; }
   color: var(--text);
 }
 
+/* Compact note-boxes laid out in rows and columns inside a card.
+   auto-fit + minmax reflows from 1 column on narrow phones up to 3-4
+   on desktop without needing breakpoints. */
+.organ-note-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.organ-note-grid .note-box {
+  padding: 8px 10px;
+  font-size: 0.85rem;
+  line-height: 1.35;
+  color: var(--text);
+  border-left-width: 3px;
+  display: flex;
+  align-items: center;
+  overflow-wrap: anywhere;
+}
+
 .tag-grid {
   display: flex;
   flex-wrap: wrap;
