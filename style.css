@@ -531,6 +531,61 @@ footer a:hover { text-decoration: underline; }
 
 .success-card ul li a:hover { text-decoration: underline; }
 
+/* Organ Damage page — stage cards (replaces the timeline rail on that page only) */
+.organ-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.organ-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+
+.organ-card-period {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 8px;
+}
+
+.organ-card-title {
+  font-weight: 700;
+  font-size: 0.948rem;
+  color: var(--text);
+  margin-top: -4px;
+  margin-bottom: 8px;
+}
+
+.organ-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.organ-card ul li {
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.55;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.organ-card ul li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.organ-card ul li strong {
+  color: var(--text);
+}
+
 .tag-grid {
   display: flex;
   flex-wrap: wrap;
