@@ -586,24 +586,34 @@ footer a:hover { text-decoration: underline; }
   color: var(--text);
 }
 
-/* Compact note-boxes laid out in rows and columns inside a card.
-   auto-fit + minmax reflows from 1 column on narrow phones up to 3-4
-   on desktop without needing breakpoints. */
+/* Symptom chips inside an organ card. Two columns is the floor at every
+   width, so a chip never spans the card; auto-fit adds a third and
+   fourth once there is room. */
 .organ-note-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: 1fr 1fr;
   gap: 8px;
   margin-top: 4px;
 }
 
-.organ-note-grid .note-box {
+@media (min-width: 480px) {
+  .organ-note-grid {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  }
+}
+
+.organ-note {
+  background: var(--accent-light);
+  border: 1px solid var(--border-blue);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
   padding: 8px 10px;
   font-size: 0.85rem;
   line-height: 1.35;
   color: var(--text);
-  border-left-width: 3px;
   display: flex;
   align-items: center;
+  min-width: 0;
   overflow-wrap: anywhere;
 }
 
