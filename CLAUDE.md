@@ -87,7 +87,7 @@ Live pages — one per `_templates/<dir>/page.html`:
 | `biblical-inspiration/` | Biblical sources of the 12 Steps |
 | `daily-check-in/` | Daily check-in practice |
 | `joe-charlie/` | Joe and Charlie's Big Book study recordings |
-| `organ-damage/` | Alcohol damage organ by organ — what heals, what is permanent |
+| `organ-damage/` | Alcohol damage organ by organ — short-term symptoms through permanent damage |
 | `step-prayers/` | Three key prayers from AA literature (Steps 3, 7, 11) |
 | `successes/` | Things That Worked — strategies behind long-term sobriety |
 
