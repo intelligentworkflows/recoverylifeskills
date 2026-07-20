@@ -613,6 +613,12 @@ footer a:hover { text-decoration: underline; }
   overflow-wrap: anywhere;
 }
 
+.organ-note.red-flag {
+  background: #fdecea;
+  border-color: #f5c2c0;
+  border-left-color: #c0392b;
+}
+
 .tag-grid {
   display: flex;
   flex-wrap: wrap;
