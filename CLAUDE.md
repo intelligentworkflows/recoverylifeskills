@@ -82,14 +82,12 @@ Live pages — one per `_templates/<dir>/page.html`:
 | Directory | Page purpose |
 |-----------|-------------|
 | `index.html` | Home — the author's recovery timeline, detox through present, with nav to all pages |
-| `aa-audiobook/` | AA Big Book audiobook recordings |
+| `aa/` | AA Big Book audiobook recordings, the Step 3/7/11 prayers, the biblical sources of the 12 Steps, and Joe and Charlie's Big Book study recordings — four sections on one page |
 | `aup/` | Acceptable Use Policy / legal disclaimers |
-| `biblical-inspiration/` | Biblical sources of the 12 Steps |
 | `daily-check-in/` | Daily check-in practice |
-| `joe-charlie/` | Joe and Charlie's Big Book study recordings |
 | `organ-damage/` | Alcohol damage organ by organ — short-term symptoms through permanent damage |
-| `step-prayers/` | Three key prayers from AA literature (Steps 3, 7, 11) |
 | `successes/` | Things That Worked — strategies behind long-term sobriety |
+| `tests/` | Blood work and screening tests worth asking a doctor for, organized by organ |
 
 `_draft/` holds pages pulled from the live site (the per-week timeline pages, `upon-awakening/`, `triggers/`, `avoid/`, `faq/`, and others). The build ignores it — it only globs `_templates/`. Move a directory back into `_templates/` to republish, and re-add its footer and home-page nav links.
 
