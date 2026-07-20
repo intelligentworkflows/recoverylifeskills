@@ -646,10 +646,12 @@ footer a:hover { text-decoration: underline; }
 .toc li a {
   display: flex;
   align-items: center;
-  padding: 6px 10px;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 12px 14px;
   background: var(--surface);
   border: 1px solid var(--border);
-  border-left: 3px solid var(--accent);
+  border-top: 3px solid var(--accent);
   border-radius: var(--radius);
   text-decoration: none;
   color: var(--accent);
@@ -657,11 +659,24 @@ footer a:hover { text-decoration: underline; }
   font-size: 0.9rem;
   line-height: 1.35;
   min-height: unset;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.toc li a::after {
+  content: "\2192";
+  color: var(--muted);
+  font-weight: 400;
+  flex-shrink: 0;
 }
 
 .toc li a:hover {
   background: var(--accent-light);
+  border-color: var(--border-blue);
   text-decoration: none;
+}
+
+.toc li a:hover::after {
+  color: var(--accent);
 }
 
 .step-verses {
